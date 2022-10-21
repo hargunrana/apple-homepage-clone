@@ -3,7 +3,7 @@ import React from "react";
 const NavListItem = ({ text, link }) => {
     return (
         <li>
-            <a href={link}>{text}</a>
+            <a class="nav-link" href={link}>{text}</a>
         </li>
     );
 };

@@ -10,7 +10,7 @@ const NavIcon = ({ link, text }) => {
                 paddingLeft:"2.5rem"
             }}
         >
-            <a href={link}>{text}</a>
+            <a class="nav-link" href={link}>{text}</a>
         </div>
     );
 };

@@ -35,6 +35,7 @@ const NavigationBar = () => {
 
                 <NavListItem text="Support" link="https://support.apple.com/" />
             </ul>
+                
             <NavIcon
                 link={"/"}
                 text={<FontAwesomeIcon icon={faMagnifyingGlass} />}
@@ -43,6 +44,7 @@ const NavigationBar = () => {
                 link={"/"}
                 text={<FontAwesomeIcon icon={faBagShopping} />}
             />
+            
         </div>
     );
 };
