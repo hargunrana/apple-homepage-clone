@@ -1,0 +1,32 @@
+.nav-bar {
+    height: 5.5vh;
+    display: flex;
+    justify-content: center;
+    background-color: #3d3d3d;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: small;
+    padding-left: 1rem;
+}
+
+li {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(205, 205, 205);
+}
+a:hover {
+    color: white;
+}
+
+.apple-logo {
+    font-size: large;
+    
+}
