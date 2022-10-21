@@ -15,7 +15,7 @@ const NavigationBar = () => {
                 <NavIcon link={"/"} text={<FontAwesomeIcon icon={faApple} />} />
             </div>
             <ul>
-                <NavListItem text="Store" link="https://www.apple.com/us/shop/goto/store" />
+                <NavListItem text="Store" link="https://www.apple.com/us/shop/goto/store" /> 
 
                 <NavListItem text="Mac" link="https://www.apple.com/mac/" />
 
