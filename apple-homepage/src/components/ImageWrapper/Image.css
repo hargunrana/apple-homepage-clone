@@ -1,10 +1,10 @@
 .image-wrapper {
-    background-color: rgba(251,251,251,255);
-    /* height: calc((100% - 3rem)); */
+    background-color: rgba(251, 251, 251, 255);
+    
     height: 90vh;
     display: flex;
     justify-content: center;
-    
+
     text-align: center;
 }
 .image-wrapper > * {
@@ -14,13 +14,10 @@
 .image {
     height: 90vh;
     width: auto;
-    padding: 0;    
+    padding: 0;
 }
 
-.info{
+.info {
     padding: 0;
     position: absolute;
-    /* left: 50%; */
-    /* z-index: 1; */
-    
 }

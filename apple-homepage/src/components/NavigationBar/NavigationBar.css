@@ -3,12 +3,12 @@
     width: 100vw;
     display: flex;
     justify-content: center;
-    background-color: #3d3d3d;
-    /* margin: 0rem;
-    padding: 0rem; */
+    background-color: rgba(0, 0, 0, 0.8);
+    
     position: fixed;
     top: 0rem;
     z-index: 1;
+    backdrop-filter: blur(12px);
 }
 ul {
     display: flex;
