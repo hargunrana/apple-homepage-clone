@@ -1,3 +1,4 @@
+import "./App.css";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import Image from "./components/ImageWrapper/Image";
 import WatchImage from "./components/WatchImageWrapper/WatchImage";
@@ -7,6 +8,10 @@ import Footer from "./components/Footer";
 import iPad from "./Assets/iPad.png";
 import iPhone14pro from "./Assets/iPhone14pro.png";
 import iPhone14 from "./Assets/iPhone14.png";
+
+import watchUltra from "./Assets/watchUltra.png";
+import watch8 from "./Assets/watch8.png";
+
 let imagesInfo = [
     [
         "iPad",
@@ -17,9 +22,10 @@ let imagesInfo = [
     ["iPhone 14 Pro", "Pro. Beyond.", "", "Buy"],
     ["iPhone 14", "Bigger and Better.", "", "Buy"],
 ];
+
 let watchImageInfo = [
-    ["Watch", "Ultra", "Adventure Awaits.", "", "Buy"],
-    ["Watch", "Series 8", "A healthy leap ahead.", "", "Buy"],
+    ["WATCH", "ULTRA", "Adventure Awaits.", "Buy"],
+    ["WATCH", "SERIES 8", "A healthy leap ahead.", "Buy"],
 ];
 function App() {
     return (
@@ -47,11 +53,24 @@ function App() {
                 infoPos={"top"}
                 bgColor={"rgba(251,251,251,255)"}
             />
-            <div class = "watch-images">
-                <WatchImage />
-                <WatchImage />
+            <div class="watch-images">
+                <WatchImage
+                    image={watchUltra}
+                    watchImageInfo={watchImageInfo[0]}
+                    infoPos="left"
+                    bgColor="white"
+                    typeColor="red"
+                />
+                <WatchImage
+                    image={watch8}
+                    watchImageInfo={watchImageInfo[1]}
+                    infoPos="right"
+                    bgColor="black"
+                    typeColor="red"
+                />
             </div>
 
+            
             <Carousel />
             <Footer />
         </div>

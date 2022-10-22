@@ -6,8 +6,8 @@ body {
     padding: 0;
 }
 
-/* .watch-images {
+.watch-images {
     display: flex;
-    justify-content: center;
+    justify-content: space;
     align-items: center;
-} */
+}

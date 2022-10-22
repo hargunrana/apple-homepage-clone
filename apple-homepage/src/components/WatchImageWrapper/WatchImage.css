@@ -1,4 +1,26 @@
-img {
+.watch-image-wrapper {
+    height: 60vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+.watch-image-wrapper > img {
     height: 50vh;
-    width: 100vh;
+    width: auto;
+
+    /* margin: 0px 0 0 -50px; */
+    position: relative;
+}
+
+.watch-info {
+    padding: 0;
+    position: absolute;
+    top: calc((90vh * 3) + 6rem);
+    padding-bottom: 5rem;
 }
