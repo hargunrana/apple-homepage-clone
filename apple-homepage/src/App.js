@@ -3,8 +3,9 @@ import NavigationBar from "./components/NavigationBar/NavigationBar";
 import Image from "./components/ImageWrapper/Image";
 import WatchImage from "./components/WatchImageWrapper/WatchImage";
 import Carousel from "./components/Carousel";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 
+// Importing Images
 import iPad from "./Assets/iPad.png";
 import iPhone14pro from "./Assets/iPhone14pro.png";
 import iPhone14 from "./Assets/iPhone14.png";
@@ -12,6 +13,7 @@ import iPhone14 from "./Assets/iPhone14.png";
 import watchUltra from "./Assets/watchUltra.png";
 import watch8 from "./Assets/watch8.png";
 
+// Information for the Images
 let imagesInfo = [
     [
         "iPad",
@@ -27,6 +29,7 @@ let watchImageInfo = [
     ["WATCH", "ULTRA", "Adventure Awaits.", "Buy"],
     ["WATCH", "SERIES 8", "A healthy leap ahead.", "Buy"],
 ];
+
 function App() {
     return (
         <div>
@@ -70,8 +73,7 @@ function App() {
                 />
             </div>
 
-            
-            <Carousel />
+            {/* <Carousel /> */}
             <Footer />
         </div>
     );

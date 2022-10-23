@@ -1,0 +1,55 @@
+.footer-wrapper {
+    height: 80vh;
+    width: 100vw;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 2rem;
+}
+
+.category-column {
+    width: 12rem;
+}
+
+.category-wrapper {
+    font-size: 1em;
+}
+
+#title {
+    font-size: 12px;
+    line-height: 1.33337;
+}
+#item-link {
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+}
+
+#item-link:hover {
+    text-decoration: underline;
+}
+
+#list {
+    padding: 0;
+    margin-right: 20px;
+    font-size: 12px;
+    line-height: 1rem;
+}
+
+.list-item {
+    margin-bottom: 0.8em;
+}
+
+.text {
+    font-size: 12px;
+    /* line-height: 1.33337; */
+    line-height: 2;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+
+    color: grey;
+
+    /* width: 41.25vw; */
+}

@@ -45,6 +45,6 @@
     margin-left: 32px;
 }
 
-.info-links > a:hover {
+#links > a:hover {
     text-decoration: underline;
 }

@@ -4,13 +4,13 @@
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.8);
-    
+
     position: fixed;
     top: 0rem;
     z-index: 1;
     backdrop-filter: blur(12px);
 }
-ul {
+#nav-list {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,7 +19,7 @@ ul {
     padding-left: 1rem;
 }
 
-li {
+#nav-list-item {
     margin: 1rem;
     cursor: pointer;
     padding: 3px;
