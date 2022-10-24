@@ -3,16 +3,7 @@
     width: 100vw;
 }
 
-.categories {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    margin-top: 2rem;
-}
 
-.category-column {
-    width: 12rem;
-}
 
 .category-wrapper {
     font-size: 1em;
@@ -53,3 +44,5 @@
 
     /* width: 41.25vw; */
 }
+
+

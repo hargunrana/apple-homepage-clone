@@ -86,8 +86,8 @@ let categoryItems = [
 
 const Footer = () => {
     return (
-        <div class="footer-wrapper">
-            {/* <p style={{ paddingLeft: "15vw" }} class="text">
+        <div className="footer-wrapper">
+            {/* <p style={{ paddingLeft: "15vw" }} className="text">
                 To access and use all the features of Apple Card, you must add
                 Apple Card to Wallet on an iPhone or iPad with the latest
                 version of iOS or iPadOS. Update to the latest version by going

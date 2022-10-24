@@ -7,7 +7,6 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    
 }
 
 .watch-image-wrapper > img {
@@ -24,3 +23,4 @@
     top: calc((90vh * 3) + 6rem);
     padding-bottom: 5rem;
 }
+

@@ -1,10 +1,10 @@
 .image-wrapper {
     background-color: rgba(251, 251, 251, 255);
-    
+
     height: 90vh;
     display: flex;
     justify-content: center;
-
+    overflow: hidden;
     text-align: center;
 }
 .image-wrapper > * {
@@ -20,4 +20,18 @@
 .info {
     padding: 0;
     position: absolute;
+}
+
+@media (max-width: 650px) {
+    .image{
+        height: 80vh;
+
+    }
+    .image-wrapper{
+        
+    }
+    #14pro>*{
+        /* height:50vh; */
+
+    }
 }

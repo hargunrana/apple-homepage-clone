@@ -2,25 +2,25 @@ import React from "react";
 import "./Image.css";
 
 import Information from "./Information";
-const Image = ({ image, imagesInfo, infoPos, bgColor }) => {
+const Image = ({ image, imagesInfo, infoPos, bgColor, infoLinks }) => {
     let infoStyling = {};
     if (infoPos === "center") {
         infoStyling = { left: "50%" };
     } else if (infoPos === "top") {
         infoStyling = { left: "40%", paddingTop: "4rem" };
     }
-    if (bgColor == "black") {
+    if (bgColor === "black") {
         infoStyling.color = "white";
     }
     return (
         <div
             style={{ alignItems: infoPos, backgroundColor: bgColor }}
-            class="image-wrapper"
+            className="image-wrapper"
         >
-            <img class="image" src={image} />
+            <img className="image" src={image} alt="iphone" />
 
-            <div style={infoStyling} class="info">
-                <Information imagesInfo={imagesInfo} />
+            <div style={infoStyling} className="info">
+                <Information imagesInfo={imagesInfo} infoLinks={infoLinks} />
             </div>
         </div>
     );

@@ -3,7 +3,7 @@ import React from "react";
 const CategoryList = ({ categoryItems, categoryTitles }) => {
     let listItems = categoryItems.map((item) => {
         return (
-            <li class="list-item">
+            <li className="list-item">
                 <a id="item-link" href="/">
                     {item}
                 </a>
@@ -11,7 +11,7 @@ const CategoryList = ({ categoryItems, categoryTitles }) => {
         );
     });
     return (
-        <div class="category-wrapper">
+        <div className="category-wrapper">
             <h3 id="title">{categoryTitles}</h3>
             <ul id="list" style={{ listStyle: "none" }}>
                 {listItems}

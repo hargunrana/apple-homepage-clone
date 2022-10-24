@@ -1,17 +1,18 @@
 import React from "react";
 import CategoryList from "./CategoryList";
+import "./LinksComponent.css"
 const LinksComponent = ({ categoryItems, categoryTitles }) => {
     return (
         
-        <div class="categories">
-            <div class="category-column">
+        <div className="categories">
+            <div className="category-column">
                 <CategoryList
                     categoryItems={categoryItems[0]}
                     categoryTitles={categoryTitles[0]}
                 />
             </div>
 
-            <div class="category-column">
+            <div className="category-column">
                 <CategoryList
                     categoryItems={categoryItems[1]}
                     categoryTitles={categoryTitles[1]}
@@ -25,14 +26,14 @@ const LinksComponent = ({ categoryItems, categoryTitles }) => {
                 </div>
             </div>
 
-            <div class="category-column">
+            <div className="category-column">
                 <CategoryList
                     categoryItems={categoryItems[3]}
                     categoryTitles={categoryTitles[3]}
                 />
             </div>
 
-            <div class="category-column">
+            <div className="category-column">
                 <CategoryList
                     categoryItems={categoryItems[4]}
                     categoryTitles={categoryTitles[4]}
@@ -57,7 +58,7 @@ const LinksComponent = ({ categoryItems, categoryTitles }) => {
                     />
                 </div>
             </div>
-            <div class="category-column">
+            <div className="category-column">
                 <CategoryList
                     categoryItems={categoryItems[8]}
                     categoryTitles={categoryTitles[8]}

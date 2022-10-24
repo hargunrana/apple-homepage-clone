@@ -15,14 +15,14 @@
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    font-size: small;
+    font-size: 11px;
     padding-left: 1rem;
 }
 
 #nav-list-item {
     margin: 1rem;
     cursor: pointer;
-    padding: 3px;
+    padding: 0.1875rem;
 }
 .nav-link {
     text-decoration: none;
@@ -34,4 +34,43 @@
 
 .apple-logo {
     font-size: large;
+    padding: 0.75rem;
+}
+#menu {
+    display: none;
+    padding: 0;
+}
+#search-button {
+    padding: 0.75rem;
+    padding-left: 2.5rem;
+}
+#bag-button {
+    padding: 0.75rem;
+    padding-left: 2.5rem;
+}
+
+@media (max-width: 932px) {
+    .nav-bar {
+        justify-content: space-between;
+    }
+    #nav-list {
+        display: none;
+    }
+    #search-button {
+        display: none;
+    }
+    #menu {
+        display: block;
+        padding: 0.75rem 1rem 0rem 1rem;
+        
+
+    }
+    .apple-logo {
+        padding-top: 0.5rem;
+    }
+    #bag-button {
+        padding: 0.75rem 1rem 0rem  0rem;
+        /* padding-top: 0.75;
+        padding-right: 1rem; */
+    }
 }

@@ -2,15 +2,10 @@ import React from "react";
 
 const NavIcon = ({ link, text }) => {
     return (
-        <div
-            style={{
-                
-                padding: "0.75rem",
-                // margin: "0",
-                paddingLeft:"2.5rem"
-            }}
-        >
-            <a class="nav-link" href={link}>{text}</a>
+        <div>
+            <a className="nav-link" href={link}>
+                {text}
+            </a>
         </div>
     );
 };
