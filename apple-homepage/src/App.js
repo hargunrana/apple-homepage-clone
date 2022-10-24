@@ -2,7 +2,7 @@ import "./App.css";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import Image from "./components/ImageWrapper/Image";
 import WatchImage from "./components/WatchImageWrapper/WatchImage";
-// import Carousel from "./components/Carousel";
+
 import Footer from "./components/Footer/Footer";
 
 // Importing Images
@@ -14,47 +14,7 @@ import watchUltra from "./Assets/watchUltra.png";
 import watch8 from "./Assets/watch8.png";
 
 // Information for the Images
-
-let imagesInfo = [
-    [
-        "iPad",
-        "Lovable. Drawable. Magical.",
-        "Available starting 10.26",
-        "Order Now",
-    ],
-    ["iPhone 14 Pro", "Pro. Beyond.", "", "Buy"],
-    ["iPhone 14", "Bigger and Better.", "", "Buy"],
-];
-
-let infoLinks = [
-    [
-        "https://www.apple.com/ipad-10.9/",
-        "https://www.apple.com/us/shop/goto/buy_ipad/ipad",
-    ],
-    [
-        "https://www.apple.com/iphone-14-pro/",
-        "https://www.apple.com/us/shop/goto/buy_iphone/iphone_14_pro",
-    ],
-    [
-        "https://www.apple.com/iphone-14/",
-        "https://www.apple.com/us/shop/goto/buy_iphone/iphone_14",
-    ],
-];
-let watchImageInfo = [
-    ["WATCH", "ULTRA", "Adventure Awaits.", "Buy"],
-    ["WATCH", "SERIES 8", "A healthy leap ahead.", "Buy"],
-];
-
-let watchLinks = [
-    [
-        "https://www.apple.com/apple-watch-ultra/",
-        "https://www.apple.com/us/shop/goto/buy_watch/apple_watch_ultra",
-    ],
-    [
-        "https://www.apple.com/apple-watch-series-8/",
-        "https://www.apple.com/us/shop/goto/buy_watch/apple_watch_series_8",
-    ],
-];
+import { imagesInfo, infoLinks, watchImageInfo, watchLinks } from "./Data";
 
 function App() {
     return (
