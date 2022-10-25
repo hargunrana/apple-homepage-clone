@@ -1,6 +1,6 @@
 
 # Apple-Homepage
-- totality-corp-apple.netlify.app
+- [totality-corp-apple.netlify.app](totality-corp-apple.netlify.app)
 
 This website is a clone of apple.com made using React, HTML, CSS, Javascript, which includes elements and components like Navigation bar, Footer, Images.
 
